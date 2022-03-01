@@ -1,0 +1,38 @@
+body  {
+    margin: 0;
+    background: linear-gradient(90deg, #DA0000, #FFE807);
+}
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 285px);
+    padding: 24px;
+    gap: 24px;
+}
+.note {
+    height: 285px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 10);
+    resize: none;
+    font-family: papyrus, fantasy;
+    font-size: 20px;
+}
+.add-note {
+    height: 285px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.70);
+    cursor: pointer;
+
+
+    
+
+}
+.add-note:hover {
+    background: rgba(0, 0, 0, 0.3);
+} 
